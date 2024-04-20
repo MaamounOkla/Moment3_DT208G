@@ -1,5 +1,21 @@
-# Moment3DT208G
+# Moment3_DT208G_Angular_Calculator
 
+
+Author: [Maamoun Okla]
+
+---
+
+## Description
+
+This is a simple Angular SPA (Single Page Application) that converts length from meters to feet and vice versa.
+
+---
+
+## Live Demo
+
+You can try the live demo [here]([#](https://moment3-dt208g-typescript-maok1900.netlify.app/)) 
+
+---
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
 
 ## Development server
