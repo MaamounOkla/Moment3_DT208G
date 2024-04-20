@@ -15,10 +15,11 @@ export class MeasurementComponent {
    
   //Methods
   metersInput(){
-    this.meters? this.feet = this.meters / 0.3048 : "";
-    
+    this.meters? this.feet = this.meters / 0.3048 : null;
+     
   }
   feetInput(){
-    this.feet? this.meters = this.feet * 0.3048 : "";
+    this.feet? this.meters = this.feet * 0.3048 : null;
+   
   }
 }

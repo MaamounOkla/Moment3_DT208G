@@ -1,0 +1,9 @@
+[build]
+base = "/
+command =  "ng build"
+publish = "dist/moment3-dt208-g/browser"
+
+[[redirects]]
+from ="/*"
+to = "/index.html"
+status = 200
