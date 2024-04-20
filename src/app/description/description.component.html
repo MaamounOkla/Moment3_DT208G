@@ -1,1 +1,82 @@
-<p>description works!</p>
+<h1>Beskrivning av lösningen</h1>
+
+<hr>
+<section class="report">
+
+
+    <div class="personal-information">
+        <h2 class="name">
+            Författare: Maamoun Okla
+        </h2>
+        <h2 class="kurs">Kurs: DT208G - Programmering i TypeScript</h2>
+        <h2 class="termin">Termin: VT24</h2>
+
+    </div>
+
+    <hr>
+    <div class="section1">
+
+        <h2>1. Syfte</h2>
+        <p> Syftet med det här arbetet är att bygga en enkel SPA (Single Page Application) med hjälp av ramverket Angular och
+            TypeScript. Ett annat syfte är att kunna använda det så kallade "Två-väg data-binding" för att dynamiskt
+            kunna rendera resultaten.
+        </p>
+
+
+        <h2>2. Konstruktion och utvecklingsmiljö</h2>
+
+        <strong> Teknik som användes för att bygga webbapplikationen</strong>
+        <br>
+        <ol>
+            <li>Visual Studio Code eller en annan IDE.</li>
+            <li>Webbläsare, till exempel Chrome eller FireFox.</li>
+            <li><a href="https://nodejs.org/en/download">NodeJS </a> </li>
+            <li>Angular <br><br><span>npm install -g &#64;angular/cli
+                </span></li>
+        </ol>
+        <p>
+            För att skapa ett nytt projekt öppna terminalen och skriv följande kommandon:
+            <br> <br><span>ng new my-angular-app
+            </span><br><br>
+            Navigera sedan till projektmappen:
+            <br><br>
+            <span>cd my-angular-app</span><br><br>
+            För att starta utvecklings-servern och öppna det på en webbläsare: 
+            <br><br><span>ng serve --open</span>
+        </p>
+
+        Ett angular-projekt består av mindre komponenter, rotkomponenten heter app.componenet. Där varje komponent består av en HTML-fil och en CSS-fil för lokalstyling samt en fil för TypeScript specifkationer och en vanlig TypeScript-fil där man kan göra sina import, specificera vilka angular-paket man vill använda i den här komponenten samt möjligheten att skriva sin egen logik och detta kan man göra under själva klassen för komponenten. 
+        <br>
+        <br> För att skapa en ny komponent skriv: 
+        <br><br><span>ng generate component NamnPåKomponent
+        </span>
+        <br><br>
+
+        I det här projektet användes en komponent för varje undersida samt komponenter för huvudet och foten på sidan (header och footer). Sedan skapades två olika komponenter för varje typ av kalkylator (en measurement och en temperatur komponent) och importerades till undersidan "kalkylator". 
+
+        <br>
+        Här är ett exempel på TypeScript-logiken som användes under measurement-komponenten för att skapa längdkalkylatorn: 
+        <br>
+        <br>
+        <img src="../../assets/carbon.png" alt="kod-snippet för TypeScript">
+        <br>
+      
+        <br>
+        Och för att knuta de variablerna till själva HTML-elemenet användes ett angular paket som heter <i> "FromsModel"</i> genom att importera det i den komponent man vill använda det i och inkludera en så kallad ngModel-attribut i det önskade HTML-elementet. 
+        <br>I följande kodsnuttet binds input-elementet för meter med variablen meter i det förra kodsnuttet. 
+        <br><br>
+        <img src="../../assets/carbon2.png" alt="kod-snippet för TypeScript">
+        <br><br>
+        Detta ersätter det vanliga sättet <i>getElementById</i> men det finns en stor skillnad. FormsModel tillåter använding av en angularfunktionalitet som kallas för "två-väg data-binding". På detta sätt kan man enkelt manipulera DOM och enkelt ha ett dynamiskt innehåll på sin webbapplikation. 
+        <br>
+      
+        <h2>3. Slutsats</h2>
+        <p>
+            Jag tycker att ramverket Angular är en mycket stark och användbar teknik som inte bara underlättar utvecklingsprocessen utan även ger möjligheten att använda många användabara funktionaliteter. Dessutom skapar det ett nytt sätt att tänka när det gäller utveckling och logik. Att kunna använda komponenter och bygga webbsidan med dem leder till ett annorlunda tankesätt, där varje komponent har sin egen logik, stil och innehåll och påverkar inte andra komponenter. Möjligheten att återanvända komponenten är därför ett otroligt kraftull sätt att utveckla och dessutom gör det enklare för redigering av stil och logik. <br><br> Att skapa single-page applications är också mycket kraftfullt.   Fördelen är då en snabbare rendering och en utmärkt användarupplevelse. Att bygga och utveckla ett projekt med Angular och TypeScript är ett mycket bättre sätt att gå tillväga med än att använda ren vanilla JavaScript enligt min åsikt, särskilt med de tydliga felmeddelanden man får och alla andra funktionaliteter.
+        </p>
+
+
+    </div>
+
+    <hr>
+</section>

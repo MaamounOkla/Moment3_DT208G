@@ -1,15 +1,24 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-measurement',
   standalone: true,
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './measurement.component.html',
   styleUrl: './measurement.component.css'
 })
 export class MeasurementComponent {
   //properties
-  num1 : number = 0 ;
-  num2 : number  = 0;
-  result : number = 0;
+  meters : number | null =  null;
+  feet : number  | null =  null;
+   
+  //Methods
+  metersInput(){
+    this.meters? this.feet = this.meters / 0.3048 : "";
+    
+  }
+  feetInput(){
+    this.feet? this.meters = this.feet * 0.3048 : "";
+  }
 }

@@ -1,1 +1,9 @@
-<p>temperature works!</p>
+<h3>Temperatur kalkylator</h3>
+<div>
+ 
+    <label for="celsius">Celsius</label>
+    <input placeholder="0 °C" type="number" id="celsius" [(ngModel)]="celsius" (input)="celsiusInput()" value="">
+    <label for="fahrenheit">Fahrenheit</label>
+    <input placeholder="32 °F" type="number" id="fahrenheit" [(ngModel)]="fahrenheit"  (input)="fahrenheitInput()">
+ 
+</div>  

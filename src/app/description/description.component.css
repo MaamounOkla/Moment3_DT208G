@@ -1,0 +1,32 @@
+section{
+    padding: 1rem;
+    line-height: 2rem;
+}
+hr{
+    color: rgb(152, 212, 255);
+}
+h1, h2, h3, p{
+    margin: 2rem 0;
+}
+ 
+li{
+    margin: 2rem
+}
+img{
+    width: 100%;
+    max-width: 40rem;
+    border-radius: 10px;
+}
+span{
+    background-color: rgb(135, 219, 255);
+    border: 1px solid gray;
+    padding: 0.3rem 1rem;
+ 
+}
+@media screen and (max-width: 769px) {
+    li{
+        margin: 0.5rem
+    }
+    
+  }
+  

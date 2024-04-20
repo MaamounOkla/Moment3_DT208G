@@ -1,0 +1,33 @@
+div {
+  margin: 1rem 0 0 1rem;
+
+  border: 1px solid rgb(146, 227, 254);
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 20rem;
+}
+label {
+  border-top: 1px solid rgb(25, 193, 250);
+  border-right: 1px solid rgb(25, 193, 250);
+  border-left: 1px solid rgb(25, 193, 250);
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  padding: 0.2rem;
+ 
+}
+input[type="number"] {
+  margin: 0.4rem 0;
+  padding: 0.6rem 0.4rem;
+  border: none;
+  box-shadow: 0 0 10px rgb(151, 144, 255);
+  border-radius: 5px;
+}
+@media screen and (max-width: 769px) {
+  div {
+    width: 90%;
+  }
+}

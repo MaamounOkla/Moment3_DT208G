@@ -1,6 +1,7 @@
+<h3>Längd kalkylator</h3>
 <div>
-    <label for="num1">Meters</label>
-    <input type="number" id="num1">
-    <label for="num2">Feet</label>
-    <input type="number" id="num1">
-</div> 
+    <label for="meters">Meter</label>
+    <input placeholder="1 meter" type="number" id="meters"  [(ngModel)]="meters" (input)="metersInput()">
+    <label for="feet">Fot</label>
+    <input placeholder="3.280 fot" type="number" id="feet" [(ngModel)] = "feet" (input)="feetInput()">
+</div>  
