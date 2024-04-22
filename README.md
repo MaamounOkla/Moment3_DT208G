@@ -7,7 +7,7 @@ Author: [Maamoun Okla]
 
 ## Description
 
-This is a simple Angular SPA (Single Page Application) that converts length from meters to feet and vice versa.
+This is a simple Angular SPA (Single Page Application) that converts length from meters to feet and temperatures from celsius to fahrenheit and vice versa.
 
 ---
 
